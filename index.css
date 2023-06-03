@@ -1,0 +1,256 @@
+body {
+    margin: 0 auto;
+    font-family: 'Smythe', cursive;
+    font-style: normal;
+    font-weight: 400;
+    user-select: none;
+    width: 600px;
+   
+} 
+
+header {
+    margin-bottom: 22px;
+    height: 167px;
+    width: 600px;
+    background: center/100% url("https://drive.google.com/uc?export=view&id=1cC-eM2p-9BojntfLRfnw4nbuH4IAaP8m");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+/*Typography*/
+
+.bold-text, .ingredients, .price, .emoji{
+    margin: 0;
+}
+
+.header-text{
+    margin: 0;
+    padding-left: 46px;
+    color: #FFFFFF;
+    
+}
+.rest-name{
+    font-size: 39px;
+    line-height: 24px;
+    
+}
+
+.slogan{
+   font-size: 23px;
+   line-height: 14px; 
+}
+
+.bold-text{
+    font-size: 28px;
+    line-height: 24px;
+}
+
+.ingredients{
+    font-size: 16px;
+    line-height: 24px;
+    color: #8B8B8B;
+}
+
+.price{
+    font-size: 20px;
+    line-height: 24px;
+}
+
+/*Menu*/
+
+.products{
+    padding: 52px 0;
+}
+.product-inner{
+    margin: 0 auto;
+    width: 508px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;   
+}
+
+.product-info{
+    padding-left: 15px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.emoji{
+    width: 70px;
+    height: 89px;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #000000;
+    opacity: 0.72;
+}
+
+.underline{
+    margin: 0 auto;
+    width: 508px;
+    border-bottom: 1px solid #8B8B8B;
+    opacity: 0.6;
+}
+
+/*buttons*/
+
+.add-btn{
+    cursor: pointer;
+    background-color: white;
+    border: 1.5px solid #8B8B8B;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 40px;
+    opacity: 0.72;
+}
+
+.add-btn:hover{
+    background-color: #ECFDF5;
+    
+}
+
+.remove-btn{
+    cursor: pointer;
+    margin-right: auto;
+    border: none;
+    background-color: white;
+    font-family: 'Verdana';
+    font-size: 12px;
+    color: #BBBBBB;
+}
+
+.remove-btn:hover{
+    color: #F59E0B;
+}
+
+.complete-btn {
+    height: 60px;
+    border: none;
+    border-radius: 3px;
+    background: #16DB99;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.payment-form .complete-btn{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 484px;
+}
+
+#close-payment{
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: transparent;
+    border: 1px solid transparent;
+    color: black;
+}
+
+/*Order elements*/
+
+.order-underline{
+    margin: 30px auto 15px;
+    width: 508px;
+    border: 2px solid #393333;
+}
+
+.order-info{
+    margin: 0 auto;
+    width: 508px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 22px;
+    text-align: center;
+}
+
+.order-list-product{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.order-list-product .bold-text{
+    padding: 0 5px;
+    text-align: left;
+}
+
+
+.order-info h3{
+    font-size: 28px;
+    line-height: 17px;
+}
+
+/*Payment*/
+
+.payment-element{
+    text-align: right;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 520px;
+    width: 542px;
+    background: #FFFFFF;
+    border-radius: 3px;
+    filter: drop-shadow(5.18654px 5.18654px 255.437px rgba(0, 0, 0, 0.5));
+}
+
+.payment-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+input{
+    
+    width: 475px;
+    height: 71px;
+}
+
+.payment-element h5{
+    margin: 28px 200px 45px 40px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+}
+
+/*Confirmation*/
+
+.confirmation-order{
+    margin: 45px auto;
+    width: 504px;
+    height: 120px;
+    background: #ECFDF5;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.confirmation-order p{
+    margin-top: 50px;
+    font-family: 'Smythe';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 17px;
+    color: #065F46;
+}
+
+
