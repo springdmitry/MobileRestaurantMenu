@@ -109,7 +109,7 @@ header {
     height: 50px;
     margin-bottom: 40px;
     opacity: 0.72;
-    font-size: 28px;
+    font-size: 22px;
 }
 
 .add-btn:hover{
@@ -132,6 +132,7 @@ header {
 }
 
 .complete-btn {
+    cursor: pointer;
     height: 60px;
     border: none;
     border-radius: 3px;
@@ -141,6 +142,10 @@ header {
     font-weight: 700;
     font-size: 20px;
     color: #FFFFFF;
+}
+
+.complete-btn:hover{
+    color: #F59E0B;
 }
 
 .payment-form .complete-btn{
